@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: ;
+    --font-color: #707070;
+}
+
+.all-btn {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #B68C5A;
+    color: whitesmoke;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+.headersection {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    font-size: 1.1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--font-color);
+
+}
+
+ul li {
+    list-style: none;
+}
+
+/* banner */
+.banner {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 8px 8px;
+    background-size: auto;
+}
+
+.banners-text {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 150px 150px;
+    text-align: center;
+    color: white;
+}
+
+.hight-banner-text {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.banner-dicption {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #d0cdcd;
+}
+
+input[type="text"] {
+    width: 350px;
+    padding: 18px 30px 18px 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Modile Responsive */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    ul {
+    display: flex;
+    gap: 15px;
+    font-size: 1rem;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 100px 10px;
+        background-size: auto;
+    }
+
+    .banners-text {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .hight-banner-text {
+        font-size: 2rem;
+    }
+
+    .banner-dicption {
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        width: 250px;
+    }
+
+}
