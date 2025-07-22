@@ -7,8 +7,9 @@
 }
 
 :root {
-    --primary-color: ;
+    --Teitle-color:#414040 ;
     --font-color: #707070;
+    --broder-color:#E7E7E7;
 }
 
 .all-btn {
@@ -94,6 +95,68 @@ input[type="text"] {
     border-radius: 5px;
 }
 
+
+/* Legal-Practice-Area */
+
+.Legal-Practice-Area{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.texest{
+    text-align: center;
+}
+.area-teitle{
+    font-size: 2.5rem;
+    color: var(--Teitle-color);
+    margin-bottom: 15px;
+}
+.dicptions{
+    font-size: 1.1rem;
+    color: var(--font-color);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.cointener{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.card{
+    max-width: 400px;
+    text-align: center;
+    padding: 40px 50px;
+    border: 1px solid var(--broder-color);
+
+}
+.cardes-teitle{
+    font-size: 1.3rem;
+    color: var(--Teitle-color);
+    font-weight: 600;
+    margin: 13px 0;
+
+}
+.carde-dicption{
+    font-size: 1rem;
+    color: var(--font-color);
+    margin-bottom: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Modile Responsive */
 @media screen and (max-width:576px) {
     nav {
@@ -129,5 +192,11 @@ input[type="text"] {
     input[type="text"] {
         width: 250px;
     }
-
+    .cointener{
+    grid-template-columns: 1fr;
+    padding: 20px;
+     }
+    .points-section{
+        max-width: 1150px;
+    }
 }
