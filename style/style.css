@@ -362,15 +362,61 @@ ul li {
 }
 
 
+/* footer */
+footer{
+    margin-top: 100px;
+  background-color: #111111;  
+  color: #CFCFCF;
+}
 
+.footer-contentn{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.just-dic{
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #CFCFCF;
+}
+.usefull{
+    display: block;
+}
+.subsd{
+    margin-top: -10px;
+}
+.newes{
+    font-size: 1rem;
+      color: #CFCFCF;
+     margin-bottom: 10px;
+}
+.Contact-Now{
 
-
-
-
-
-
-
-
+} 
+.dicpasdton{
+    max-width: 250PX;
+    margin: 0 auto;
+    margin-top: 19px;
+    
+}
+.sub{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.foo-pp{
+    margin-top: 20px;
+    padding: 18px 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.all-btn4{
+    border-radius: 0 8px 8px 0;
+}
 
 
 
@@ -461,5 +507,11 @@ ul li {
 }
 .pohufh{
     width: 100%;
+}
+.footer-contentn{
+   flex-direction: column;
+  gap: 40px;
+  text-align: center;
+   padding: 80px 0;
 }
 }
