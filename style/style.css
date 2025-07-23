@@ -201,6 +201,58 @@ input[type="text"] {
 }
 
 
+/* blog */
+.blog{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.bloges-teitle{
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--Teitle-color);
+}
+.bloges-dicption{
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--font-color);
+    margin-top: 15px;
+    
+}
+.ours-cointenar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+  gap: 40px;
+}
+.text-cointenar{   
+    gap: 30px;
+}
+.cardses{
+    border: 1px solid var(--broder-color);
+    background-color: #F3F3F3 ;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.titles{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.many-dic{
+    margin-top: 10px;
+    color: var(--font-color);
+}
+.ours-cointenar img{
+    width: 100%;
+    
+}
+
+
+
 
 
 
@@ -251,6 +303,16 @@ input[type="text"] {
 }
 .dicptions-tumble{
     margin-top: 25px;
+}
+.ours-cointenar{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
+.cardses{
+    justify-items: center;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 25px 15px;
 }
 
 }
