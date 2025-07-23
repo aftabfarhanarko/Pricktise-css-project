@@ -93,9 +93,10 @@ ul li {
     padding: 19px 30px 18px 14px;
     font-size: 15px;
     border: none;
-    border-radius: 5px 0  0 5px;
+    border-radius: 5px 0 0 5px;
 }
-.baanner-btn{
+
+.baanner-btn {
     border-radius: 0 5px 5px 0;
 }
 
@@ -359,62 +360,69 @@ ul li {
     border: none;
     border-radius: 8px;
 }
-.pohufh{
+
+.pohufh {
     width: 100%;
 }
 
 
 /* footer */
-footer{
+footer {
     margin-top: 100px;
-  background-color: #111111;  
-  color: #CFCFCF;
+    background-color: #111111;
+    color: #CFCFCF;
 }
 
-.footer-contentn{
+.footer-contentn {
     max-width: 1150px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 50px 0;
 }
-.just-dic{
+
+.just-dic {
     max-width: 250px;
     margin: 0 auto;
     margin-top: 30px;
     color: #CFCFCF;
 }
-.usefull{
+
+.usefull {
     display: block;
 }
-.subsd{
+
+.subsd {
     margin-top: -10px;
 }
-.newes{
-    font-size: 1rem;
-      color: #CFCFCF;
-     margin-bottom: 10px;
-}
-.Contact-Now{
 
-} 
-.dicpasdton{
-    max-width: 250PX;
-    margin-top: 19px;  
+.newes {
+    font-size: 1rem;
+    color: #CFCFCF;
+    margin-bottom: 10px;
 }
-.sub{
+
+
+.dicpasdton {
+    max-width: 250PX;
+    margin-top: 19px;
+}
+
+.sub {
     color: white;
     font-weight: 500;
     font-size: 1.5rem;
 }
-.foo-pp{
+
+.foo-pp {
     margin-top: 20px;
     padding: 18px 14px;
     font-size: 15px;
     border: none;
     border-radius: 8px 0 0 8px;
 }
-.all-btn4{
+
+.all-btn4 {
     border-radius: 0 8px 8px 0;
 }
 
@@ -486,42 +494,49 @@ footer{
         margin-bottom: 20px;
         padding: 25px 15px;
     }
+
     .carda-coine {
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
 
-     }
-     .time-input {
-    grid-template-columns: 1fr;
-}
-.carda1 {
-    max-width: 400px;
-    justify-items: center;
-}
-.gapes {
-    max-width: 400px;
-}
+    }
 
-.masseages-box {
-    max-width: 400px;
+    .time-input {
+        grid-template-columns: 1fr;
+    }
 
-}
-.pohufh{
-    width: 100%;
-}
-.footer-contentn{
-   grid-template-columns: repeat(1,1fr);
-  gap: 40px;
-  text-align: center;
-   padding: 80px 0;
-}
-.dicpasdton{
-  margin: 0 auto;  
-}
+    .carda1 {
+        max-width: 400px;
+        justify-items: center;
+    }
+
+    .gapes {
+        max-width: 400px;
+    }
+
+    .masseages-box {
+        max-width: 400px;
+
+    }
+
+    .pohufh {
+        width: 100%;
+    }
+
+    .footer-contentn {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        text-align: center;
+        padding: 80px 0;
+    }
+
+    .dicpasdton {
+        margin: 0 auto;
+    }
 }
 
 
 /* Tablet Responsive */
-@media screen and (min-width:576px) and (max-width:992px ){
+@media screen and (min-width:576px) and (max-width:992px) {
     nav {
         flex-direction: column;
         gap: 30px;
@@ -557,14 +572,15 @@ footer{
     }
 
     .cointener {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 20px;
     }
 
-    .text-cointenar{
+    .text-cointenar {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
+
     .points-section {
         max-width: 1150px;
     }
@@ -588,40 +604,48 @@ footer{
         margin-bottom: 20px;
         padding: 25px 15px;
     }
+
     .carda-coine {
-    grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
 
-     }
-     .time-input {
-    grid-template-columns: repeat(2,1fr);
-}
-.carda1 {
-    max-width: 400px;
-    justify-items: center;
-}
-.gapes {
-    max-width: 400px;
-}
+    }
 
-.masseages-box {
-    max-width: 400px;
+    .time-input {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-}
-.pohufh{
-    width: 88%;
-}
-.footer-contentn{
-   grid-template-columns: repeat(2,1fr);
-  gap: 40px;
-  text-align: center;
-   padding: 80px 0;
-}
-.dicpasdton{
-    padding-top: 50px;
-  margin: 0 auto;  
-}
-.foo-pp{
-    max-width: 220px;
-}
+    .carda1 {
+        max-width: 400px;
+        justify-items: center;
+    }
+
+    .gapes {
+        max-width: 400px;
+    }
+
+    .masseages-box {
+        max-width: 400px;
+
+    }
+
+    .pohufh {
+        width: 88%;
+    }
+
+    .footer-contentn {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        text-align: center;
+        padding: 80px 0;
+    }
+
+    .dicpasdton {
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+
+    .foo-pp {
+        max-width: 220px;
+    }
 
 }
